@@ -1,0 +1,26 @@
+THE PLACE SHARING APPLICATION
+
+AUTHOR: Oladapo Oladayo
+VERSION: 1.0.0
+FIRST RELEASE DATE: 02/12/2020
+
+TECHNOLOGIES USED:
+FRONTEND: React, JSX, CSS 
+BACKEND: Node, Express, Mongoose
+DATABASE: MongoDB
+
+THIRD PARTY API: Google Geolocation API, Mapbox API
+
+
+GENERAL PURPOSE OF THE APPLICATION
+
+This application provides a platform for users to share pictures
+and location of the places they have visited. This is achieved 
+with the aid of Google Geolocation API and Mapbox.
+It also allows them to submit any feedbacks in the form of their 
+general impression of the place. 
+
+
+THE FRONTEND 
+
+The front-facing part of the app is written in React (a JavaScript library).

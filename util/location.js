@@ -1,6 +1,5 @@
 const axios = require('axios');
 const HttpError = require('../models/http-errors');
-// const API_KEY = 'AIzaSyBUzZ8tuD7XTjdoRyI7EX8Ow2VM7ojA9_0';
 
 // Get address with goodle geolocation API
 // You should replace the token with yours!
