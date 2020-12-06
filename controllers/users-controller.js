@@ -60,7 +60,7 @@ exports.login = catchAsync(async (req, res, next) => {
   // Generate token 
   let token;
   token = jwt.sign({ email: email, userId: user.id }, process.env.JWT_SECRET, {
-    expiresIn: '1h'
+    expiresIn: process.env.JWT_EXP
   });
   if (!token) return next(new HttpError('Sorry, token could not be created', 500));
 
