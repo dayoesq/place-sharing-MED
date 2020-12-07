@@ -93,7 +93,7 @@ exports.deletePlace = catchAsync( async(req, res, next) => {
   const placeId = req.params.pid;
   const place = await Place.findById(placeId).populate('creator');
   if (!place) return next(new HttpError('Place could not be found', 404));
-   if (place.creator.id !== req.userData.id) {
+   if (place.creator.id !== req.userData.userId) {
     return next(new HttpError('Operation not allowed', 403));
   }
   const imagePath = place.image;

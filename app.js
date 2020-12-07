@@ -18,7 +18,7 @@ app.use((_req, res, next) => {
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
   res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PATCH, DELETE');
   next();
-})
+});
 app.use(bodyParser.json()); // Parses every request 
 app.use('/uploads/images', express.static(path.join('uploads', 'images')));
 app.use('/api/places', placesRouter);
