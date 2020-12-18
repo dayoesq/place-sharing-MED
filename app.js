@@ -2,14 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 const placesRouter = require('./routes/places-routes');
 const usersRouter = require('./routes/users-routes');
 const HttpError = require('./models/http-errors');
-
-dotenv.config({ path: './config.env' });
 
 const app = express();
 
