@@ -8,4 +8,5 @@ Permission is hereby given to any individuals or organizations intested in check
 
 ### ```git clone``` 
 
-The prospective users of the app should remember to create their own environment variables. Please check full details in ### ```doc.txt
+The prospective users of the app should remember to create their own environment variables. Please check full details in 
+### ```documentation.txt```
